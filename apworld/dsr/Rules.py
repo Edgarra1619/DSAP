@@ -271,6 +271,7 @@ region_rules_table: dict[str, list[DsrEntranceRule]] = {
   ],
   "Darkroot Garden - Behind Artorias Door": [
     DsrEntranceRule("Darkroot Garden - Before Fog", Has("Crest of Artorias")),
+    DsrEntranceRule("Darkroot Basin", True_()),
   ],
   "Darkroot Garden - Moonlight Butterfly": [
     DsrEntranceRule("Darkroot Garden", Has("Boss Fog Wall Key - Moonlight Butterfly") | bossfogwall_sanity_off),
